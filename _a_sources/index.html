@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Lidar - Site de Documentation CPGEOM</title>
+    <title>Sources de données utilisées dans le cadre de ma mission - Site de Documentation CPGEOM</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Lidar";
-        var mkdocs_page_input_path = "lidar.md";
+        var mkdocs_page_name = "Sources de donn\u00e9es utilis\u00e9es dans le cadre de ma mission";
+        var mkdocs_page_input_path = "_a_sources.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -39,12 +39,24 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../_a_sources/">Sources de données utilisées dans le cadre de ma mission</a>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Sources de données utilisées dans le cadre de ma mission</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#les-sources-de-donnees-externes">Les sources de données externes</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#le-pci-express">Le PCI Express</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#les-donnees-lidar-hd">Les données LiDAR HD</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
                 </li>
               </ul>
-              <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="./">Lidar</a>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../lidar/">Lidar</a>
                 </li>
               </ul>
               <ul>
@@ -73,7 +85,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">Lidar</li>
+      <li class="breadcrumb-item active">Sources de données utilisées dans le cadre de ma mission</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -82,13 +94,43 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <p><a href="https://geoservices.ign.fr/lidarhd">Lien de la source de donnée Lidar HD</a></p>
+                <h1 id="sources-de-donnees-utilisees-dans-le-cadre-de-ma-mission">Sources de données utilisées dans le cadre de ma mission</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Je travaille en tant qu’alternante chef de projet au sein de Orano, dans le secteur Après-Mine France.</p>
+<p>Dans ce cadre, j’apporte un appui technique et opérationnel aux responsables territoriaux ainsi qu’à la gestionnaire foncière. Mes missions sont variées et couvrent notamment l’analyse spatiale, la gestion de données foncières et cadastrales, ainsi que le soutien aux projets territoriaux liés aux anciens sites miniers.</p>
+<p>La majorité des travaux que je réalise s’appuie sur des données internes à l’entreprise. Toutefois, certains projets nécessitent également l’utilisation de sources de données externes officielles, afin de garantir la fiabilité, la précision et la conformité réglementaire des analyses produites.</p>
+<p><img alt="logo" src="../Orano.gif" /></p>
+<hr />
+<h2 id="les-sources-de-donnees-externes">Les sources de données externes</h2>
+<h3 id="le-pci-express">Le PCI Express</h3>
+<p>La principale source externe utilisée est le PCI Express, diffusé par l’Institut national de l'information géographique et forestière (IGN). Les données cadastrales utilisées proviennent du Plan Cadastral Informatisé (PCI Express), produit par la DGFiP et diffusé via les Géoservices de l’IGN.</p>
+<p>Le PCI Express correspond au référentiel cartographique officiel des parcelles en France, sous forme numérique et comprend notamment :
+- Les parcelles cadastrales (polygones)
+- Les sections cadastrales
+- Les bâtiments
+- Les limites de commune
+- Les subdivisions fiscales
+- Les numéros de parcelles</p>
+<p><a href="../pci/">Lien de la source de donnée PCI Express</a></p>
+<hr />
+<h3 id="les-donnees-lidar-hd">Les données LiDAR HD</h3>
+<p>J’utilise également les données LiDAR HD produites par l’Institut national de l'information géographique et forestière (IGN).</p>
+<p>Le programme LiDAR HD fournit un nuage de points 3D à haute densité couvrant progressivement (PRESQUE) l’ensemble du territoire français. Ces données permettent une analyse très fine du relief et de la topographie.</p>
+<p>Dans le cadre de mes missions, elles sont utilisées pour :</p>
+<ul>
+<li>
+<p>La modélisation du terrain (création d'un MNT et MNS)</p>
+</li>
+<li>
+<p>La visualisation d'effondrement</p>
+</li>
+</ul>
+<p><a href="../lidar/">Lien de la source de donnée Lidar HD</a></p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../_a_sources/" class="btn btn-neutral float-left" title="Sources de données utilisées dans le cadre de ma mission"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../pci/" class="btn btn-neutral float-right" title="Pci">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../lidar/" class="btn btn-neutral float-right" title="Lidar">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -111,10 +153,8 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../_a_sources/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
-    
-      <span><a href="../pci/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../lidar/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
