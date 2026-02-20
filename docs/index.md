@@ -1,21 +1,21 @@
-# Acceuil de mon site de documentation 
+# Test : Acceuil de mon site de documentation 
 
 ## Les sources 
 
-[Documentation sur l'IGN](./ign.md)
+[Documentation sur l'IGN](./zzign.md)
 
 ![robot](./robot.gif)
 
 # Documentation du projet
 
-## 📌 Présentation
+## Présentation
 
 Ce projet a pour objectif de créer et structurer un site de documentation versionné avec Git et hébergé sur GitHub.  
 Il permet d’organiser des pages en Markdown et de les relier entre elles via des liens internes.
 
 ---
 
-## 🗂 Structure du projet
+## Structure du projet
 
 Le projet est organisé de la manière suivante :
 
@@ -25,9 +25,9 @@ Le projet est organisé de la manière suivante :
 
 ---
 
-## 🚀 Création du repository GitHub
+## Création du repository GitHub
 
-### 1️⃣ Initialisation du projet en local
+### Initialisation du projet en local
 
 Dans le dossier du projet :
 
